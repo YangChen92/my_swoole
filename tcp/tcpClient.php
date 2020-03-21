@@ -8,7 +8,7 @@
 
 $client = new Swoole\Client(SWOOLE_SOCK_TCP);
 
-if(!$client->connect('127.0.0.1',9501,-1)){
+if(!$client->connect('127.0.0.1',9502,-1)){
     exit("connect failed.error:{$client->errCode}\n");
 }
 
